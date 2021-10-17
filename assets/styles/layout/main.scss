@@ -1,0 +1,13 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  min-height: 100vh;
+
+  @media (min-width: $tablet) {
+    flex-direction: initial;
+    margin: 0px;
+  }
+}

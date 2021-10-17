@@ -1,0 +1,18 @@
+.card__item-icon {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 70px;
+}
+
+.card__item-icon--primary {
+  background-image: url("../images/icon-sedans.svg");
+}
+
+.card__item-icon--important {
+  background-image: url("../images/icon-suvs.svg");
+}
+
+.card__item-icon--success {
+  background-image: url("../images/icon-luxury.svg");
+}

@@ -1,0 +1,28 @@
+.card__item {
+  color: $transparentWhite;
+  max-width: 325px;
+  padding: 45px;
+  transition: all 0.5 ease-in;
+}
+
+.card__item--primary {
+  background: $primary;
+  border-radius: 10px 10px 0px 0px;
+
+  @media (min-width: $tablet) {
+    border-radius: 10px 0px 0px 10px;
+  }
+}
+
+.card__item--important {
+  background: $important;
+}
+
+.card__item--success {
+  background: $success;
+  border-radius: 0px 0px 10px 10px;
+
+  @media (min-width: $tablet) {
+    border-radius: 0px 10px 10px 0px;
+  }
+}

@@ -1,0 +1,31 @@
+// generics class .btn {}
+.btn--light {
+  background: $light;
+  color: $dark;
+}
+
+.card-item__btn {
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  height: 48px;
+  margin-top: 25px;
+  padding: 10px;
+  transition: all 0.2s ease-in;
+  width: 150px;
+
+  @media (min-width: $tablet) {
+    margin-top: 80px;
+  }
+}
+
+.card-item__btn--primary {
+  color: $primary;
+}
+
+.card-item__btn--important {
+  color: $important;
+}
+
+.card-item__btn--success {
+  color: $success;
+}
